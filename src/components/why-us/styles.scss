@@ -1,0 +1,31 @@
+.why-us{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 820px) {
+.why-us {
+    display: grid;
+    grid-template-rows: auto auto; /* Two rows with auto height */
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns with equal width */
+    grid-template-areas: 
+    "one . two"
+    ". three .";
+    gap: 0px; /* Adjust the gap as needed */
+}
+
+.feature-1 {
+    grid-area: one;
+}
+
+.feature-2 {
+    grid-area: two;
+}
+
+.feature-3 {
+    grid-area: three;
+}
+}

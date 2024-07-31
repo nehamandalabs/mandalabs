@@ -1,0 +1,12 @@
+/* styles.css */
+.card-wrapper {
+    position: relative;
+}
+
+.sticky-card {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1; /* Ensure it stays on top of other cards */
+    transition: transform 0.3s ease-in-out;
+}

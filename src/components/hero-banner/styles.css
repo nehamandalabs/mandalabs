@@ -1,0 +1,13 @@
+.mainDiv {
+    /* @apply absolute right-0 -top-20 z-[100] md:-top-32 md:-right-5 */
+}
+
+#globe-container,
+.mainDiv {
+    background-color: transparent;
+}
+
+.hero-banner {
+    /* background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% ); */
+    
+}

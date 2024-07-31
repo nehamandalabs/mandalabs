@@ -1,0 +1,8 @@
+.gradient-bg {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: border-box;
+    -webkit-text-fill-color: black;
+    display: inline-block;
+    padding: 0 5px; /* Add some padding to ensure the gradient shows around the text */
+    border-radius: 5px; /* Optional: for rounded corners */
+}
